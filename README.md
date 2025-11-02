@@ -1,17 +1,16 @@
 # Semantic_Spotter
 
-# IntelliPolicy: LangChain-based Insurance Q&A System
+## 📘 How to Run the Project
 
-## Setup
-1. Install dependencies: pip install langchain openai chromadb pdfplumber tiktoken
-2. Add your `OPENAI_API_KEY` to `.env`.
-3. Run the notebook or app.
+1. Open `Semantic_Spotter_Sunil.ipynb` in **Google Colab**.  
+2. Mount Google Drive and update the path to your insurance PDF file.  
+3. Run all code cells sequentially:
+   - Install dependencies  
+   - Load and split PDF  
+   - Create embeddings and vector store  
+   - Build the RAG pipeline  
+   - Run sample queries  
+4. Use the `pretty_print_rag_result()` function to view formatted answers.  
+5. Review the sample outputs for screenshots in your project report.
 
-## Description
-This project builds a Retrieval-Augmented Generation (RAG) system using LangChain to answer insurance-related queries based on policy PDFs.
-
-## Example Query
-> What does the policy state about suicide or self-inflicted injury?
-## Expected Output
-> The policy states that no benefits will be paid for any disability that results from willful self-injury or self-destruction, while sane or insane.
 
